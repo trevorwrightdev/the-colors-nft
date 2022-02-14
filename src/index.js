@@ -12,6 +12,7 @@ ReactDOM.render(
       <Routes>
         <Route path='/' element={<App />}/>
         <Route path='/mint' element={<CandyMachine />}/>
+        
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
